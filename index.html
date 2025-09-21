@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Practice Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="top-banner">
+    <h1 class="main-heading">Balmagambet Ayat</h1>
+    <h2 class="sub-heading">Web Technologies Frontend</h2>
+    <nav id="navbar">
+      <ul>
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+        <li class="nav-item"><a class="nav-link" href="#websites">Websites</a></li>
+        <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content-wrapper">
+    <section>
+      <p class="paragraph-text">Hello world! I love programming and sport.</p>
+    </section>
+
+    <section id="hobbies">
+      <h3 class="section-heading">My Hobbies</h3>
+      <ol class="content-list">
+        <li>Sport</li>
+        <li>Programming</li>
+        <li>Music</li>
+      </ol>
+    </section>
+
+    <section id="websites">
+      <h3 class="section-heading">Favorite Websites</h3>
+      <ul class="content-list">
+        <li><a href="https://lms.astanait.edu.kz/">Moodle</a></li>
+        <li><a href="https://github.com/yeahayat/my-web">GitHub</a></li>
+        <li><a href="https://www.youtube.com/">YouTube</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="section-heading">My Favorite Person</h2>
+      <img src="jungkook.jpg" alt="My Photo" class="image-thumbnail">
+    </section>
+
+    <section>
+      <button class="btn-hover-effect">Click here</button>
+    </section>
+
+    <section id="schedule">
+      <h3 class="section-heading">Schedule</h3>
+      <table class="content-box">
+        <tr>
+          <th>Subject</th>
+          <th>Day</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td>Operating System</td>
+          <td>Monday</td>
+          <td>10:00 - 10:50</td>
+        </tr>
+        <tr>
+          <td>Russian</td>
+          <td>Tuesday</td>
+          <td>18:00 - 19:50</td>
+        </tr>
+        <tr>
+          <td>WEB</td>
+          <td>Thursday</td>
+          <td>16:00 - 17:50</td>
+        </tr>
+      </table>
+      <p class="paragraph-text">My mood today 😴</p>
+    </section>
+
+    <section id="contacts">
+      <h3 class="section-heading">Write your contacts:</h3>
+      <form id="user-form">
+        <label for="name">Your name:</label><br>
+        <input type="text" id="name" name="name" class="form-input"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" class="form-input"><br><br>
+
+        <label for="color">Your favorite color:</label><br>
+        <input type="color" id="color" name="color" class="form-input"><br><br>
+
+        <input type="submit" value="Submit" class="submit-btn">
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer-container">
+    <p>&copy; 2025 Balmagambet Ayat</p>
+  </footer>
+</body>
+</html>
